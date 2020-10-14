@@ -1,0 +1,35 @@
+baseURL = "https://celol.github.io"
+languageCode = "en-us"
+title = "My Blog : Célestin HERNANDEZ"
+enableEmoji="True"
+publishDir = "docs"
+
+
+[params]
+	subtitle="This blog was initially designed for my [VAR Master](https://www.ip-paris.fr/maste-2-virtual-augmented-reality/), but it is now a blending of all the projects and experiences I've had throughout my curriculum. Check [Tags](/tags) to find the related articles!"
+
+[[params.social]]
+name="GitHub"
+icon="github"
+url="https://github.com/celol"
+
+[[menu.main]]
+name="Home"
+url="/"
+weight=1
+
+[[menu.main]]
+name="All posts"
+url="/posts"
+weight=2
+
+[[menu.main]]
+name="About"
+url="/about"
+weight=3
+
+[[menu.main]]
+name="Tags"
+url="/tags"
+weight=4
+
