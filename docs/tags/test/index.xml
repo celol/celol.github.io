@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>test on My Blog : Célestin HERNANDEZ</title>
-    <link>https://celol.github.io/tags/test/</link>
+    <link>/tags/test/</link>
     <description>Recent content in test on My Blog : Célestin HERNANDEZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://celol.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Je te baise Julen</title>
-      <link>https://celol.github.io/posts/test/</link>
+      <link>/posts/test/</link>
       <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://celol.github.io/posts/test/</guid>
+      <guid>/posts/test/</guid>
       <description>Julen je te baise</description>
     </item>
     
     <item>
       <title>My very first post on this blog</title>
-      <link>https://celol.github.io/posts/my-first-post/</link>
+      <link>/posts/my-first-post/</link>
       <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://celol.github.io/posts/my-first-post/</guid>
+      <guid>/posts/my-first-post/</guid>
       <description>It has been a long way from the very first course of HCI to the publishing of this article, but we are here. I&amp;rsquo;ll explain more in depth the choices I made and the reasoning behind it in my next post about our Hugo Lab. See you there ! 👋
   Happy of my success    &amp;ldquo;That&amp;rsquo;s one small step for man, one giant leap for mankind.&amp;rdquo; Or something along those lines.</description>
     </item>
