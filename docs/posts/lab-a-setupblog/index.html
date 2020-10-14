@@ -82,13 +82,28 @@ href="/site.webmanifest">
 <p>At first, I had chosen the <a href="https://themes.gohugo.io/hugo-papermod/" title="Looks good, but not ideal">Paper Mod</a> which had everything to satisfy me : it was clean, minimalist and readable. <br>
 But I had major issues with the quick start linked with the project. Some of the modifications suggested could not be implemented because the author didn’t bother translating them to the toml format.<br>
 Basically I didn&rsquo;t have the freedom to modidy everything I wanted and it bothered me since I wanted this blog to be truly mine.</p>
-<p>Anyways after several attempts, I decided to start over and found another template that was also a great fit.<br>
+<p>Anyways, after several attempts, I decided to start over and found another template that was also a great fit.<br>
 It is the template you’re currently browsing and the built-in tutorial was easy to follow and offered a lot of useful modifications. I also chose it because of the presence of tags which I think will be pretty useful once articles start to pile up.
-I also added a browser icon thanks to this tutorial : <a href="https://www.kiroule.com/article/add-favicon-to-hugo-based-website/">https://www.kiroule.com/article/add-favicon-to-hugo-based-website/</a>
-The emoji cheat sheet is also a must have since the template supports the use of them : <a href="https://www.webfx.com/tools/emoji-cheat-sheet/">https://www.webfx.com/tools/emoji-cheat-sheet/</a>
-And finally to help the efficient writing of articles, I found this site to be the best : <a href="https://www.markdownguide.org/basic-syntax/#headings">https://www.markdownguide.org/basic-syntax/#headings</a>
-I also had major issues for image implementation, thankfully I was able to solve it using this link: <a href="https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github">https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github</a> )</p>
-<p>git submodule add -b master <a href="mailto:git@github.com">git@github.com</a>:celol/CHernandez.github.io.git public</p>
+I also added a browser icon thanks to this <a href="https://www.kiroule.com/article/add-favicon-to-hugo-based-website/">tutorial</a>. As I really wanted to adapt the theme to my taste and make it look personal, I believe the icon is a good way of achieving it.</p>
+<figure>
+    <img src="/android-chrome-512x512.png"/> <figcaption>
+            <h4>Isn&#39;t it beautiful ?</h4>
+        </figcaption>
+</figure>
+
+<p>Since the template supports the usage of emojis and even if I&rsquo;m not going to overuse them, knowing how to use them is still a good <a href="https://www.webfx.com/tools/emoji-cheat-sheet/">opportunity.</a> 💪</p>
+<p>And finally to help the efficient writing of articles, I found this <a href="https://www.markdownguide.org/basic-syntax/">site</a> to be the best. As I had never written any Markdown documents, knowing the basic syntax was a must in order to make my content more readable.</p>
+<h2 id="how-did-i-host-my-blog-">How did I host my Blog ?</h2>
+<p>Looking closely at my blog domain, you will notice that it&rsquo;s being hosted on GitHub pages. I chose this way because, since I am going to host the code relative to our labs on GitHub, why not hosting everything there ?</p>
+<p>The main issue with the Hugo built-in tutorial is that it does not extensively explain how to host on GitHub while using a theme. As I kept getting the same errors with my initial build (the one of Hugo&rsquo;s quickstart), I decided to do things my way.</p>
+<p><strong>How to host your Hugo Blog, Célestin&rsquo;s way:</strong></p>
+<ol>
+<li>Follow Hugo&rsquo;s quickstart guide</li>
+<li>If you want to use a theme, download the zip archive, extract it and copy the folders inside in your main directory (replace duplicate if needed)</li>
+<li>In your config.toml, add publishDir = &ldquo;docs&rdquo;</li>
+<li>From now on, you can follow Hugo&rsquo;s tutorial : <em>Deployment of Project Pages from /docs folder on master branch</em></li>
+</ol>
+<p>My way is not one advised by Hugo&rsquo;s tutorial (at least for the theme part), but it&rsquo;s the only way I found for my website to work. Professionnally speaking, this not an ideal way of building a website, since the docs repository is only a part of the GitHub repo, but since I can build my blog locally at first it is safe to use.</p>
 
 		</section>
 

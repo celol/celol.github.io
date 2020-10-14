@@ -6,7 +6,7 @@ publishDir = "docs"
 
 
 [params]
-	subtitle="This blog was initially designed for my [VAR Master](https://www.ip-paris.fr/maste-2-virtual-augmented-reality/), but it is now a blending of all the projects and experiences I've had throughout my curriculum. Check [Tags](/tags) to find the related articles!"
+	subtitle="This blog is designed for my [VAR Master](https://www.ip-paris.fr/maste-2-virtual-augmented-reality/) and its HCI Course."
 
 [[params.social]]
 name="GitHub"
