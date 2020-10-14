@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My Blog : Célestin HERNANDEZ</title>
+    <link>https://celol.github.io/posts/</link>
+    <description>Recent content in Posts on My Blog : Célestin HERNANDEZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Oct 2020 14:12:53 +0200</lastBuildDate><atom:link href="https://celol.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lab a) : Blog Setup</title>
+      <link>https://celol.github.io/posts/lab-a-setupblog/</link>
+      <pubDate>Tue, 13 Oct 2020 14:12:53 +0200</pubDate>
+      
+      <guid>https://celol.github.io/posts/lab-a-setupblog/</guid>
+      <description>Why Hugo ? I decided to use Hugo because of the challenge it offered. At first, because I was getting behind on the lab, I thought of using a platform that would allow me to instantly and easily create a blog like we see so much nowadays. But I decided not to fall in the Dark Pattern of laziness and got my hands-on Hugo.
+How I got started ? At first, I had chosen the Paper Mod which had everything to satisfy me : it was clean, minimalist and readable.</description>
+    </item>
+    
+    <item>
+      <title>Je te baise Julen</title>
+      <link>https://celol.github.io/posts/test/</link>
+      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://celol.github.io/posts/test/</guid>
+      <description>Julen je te baise</description>
+    </item>
+    
+    <item>
+      <title>My very first post on this blog</title>
+      <link>https://celol.github.io/posts/my-first-post/</link>
+      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://celol.github.io/posts/my-first-post/</guid>
+      <description>It has been a long way from the very first course of HCI to the publishing of this article, but we are here. I&amp;rsquo;ll explain more in depth the choices I made and the reasoning behind it in my next post about our Hugo Lab. See you there ! 👋
+  Happy of my success    &amp;ldquo;That&amp;rsquo;s one small step for man, one giant leap for mankind.&amp;rdquo; Or something along those lines.</description>
+    </item>
+    
+  </channel>
+</rss>
