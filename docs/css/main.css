@@ -98,6 +98,10 @@ figure h4 {
 figure h4::before {
   content: '↳ ';
 }
+video {
+display: block;
+margin: 0 auto;
+}
 
 /* Code blocks */
 code {
