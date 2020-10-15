@@ -74,6 +74,10 @@ href="/site.webmanifest">
 			<div class="meta">Posted on Oct 13, 2020</div>
 		</div>
 		
+		<div class="tldr">
+			<strong>tl;dr:</strong>
+			Followed tutorials, found ressources and used some tricks
+		</div>
 
 		<section class="body">
 			<h2 id="why-hugo-">Why Hugo ?</h2>
@@ -104,11 +108,70 @@ I also added a browser icon thanks to this <a href="https://www.kiroule.com/arti
 <li>From now on, you can follow Hugo&rsquo;s tutorial : <em>Deployment of Project Pages from /docs folder on master branch</em></li>
 </ol>
 <p>My way is not one advised by Hugo&rsquo;s tutorial (at least for the theme part), but it&rsquo;s the only way I found for my website to work. Professionnally speaking, this not an ideal way of building a website, since the docs repository is only a part of the GitHub repo, but since I can build my blog locally at first it is safe to use.</p>
+<h2 id="what-i-added-to-the-theme-">What I added to the theme ?</h2>
+<p>I really wanted to be able to embed local videos on my blog. Obviously, it is possible to directly embed Youtube videos in a markdown file but for fast created content it was much easier for me to host them directly in my repo.</p>
+<p>To do so, I created my own video <a href="https://gohugo.io/templates/shortcode-templates/">shortcode</a> :
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{ with .Get &#34;mp4&#34;}}
+&lt;<span style="color:#f92672">figure</span>&gt;
+  &lt;<span style="color:#f92672">video</span> <span style="color:#a6e22e">loop</span> <span style="color:#a6e22e">autoplay</span> <span style="color:#a6e22e">muted</span> <span style="color:#a6e22e">controls</span>&gt;
+    &lt;<span style="color:#f92672">source</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ . }}&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;video/mp4&#34;</span>&gt;
+    	{{ end }}
+    Your browser does not support the video tag.
+  &lt;/<span style="color:#f92672">video</span>&gt;
+  {{ with .Get &#34;caption&#34;}}
+     &lt;<span style="color:#f92672">figcaption</span>&gt; &lt;<span style="color:#f92672">h4</span>&gt; &#34;{{ . }}&#34; &lt;/<span style="color:#f92672">h4</span>&gt;&lt;/<span style="color:#f92672">figcaption</span>&gt;
+  &lt;<span style="color:#f92672">style</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;center&#34;</span>&gt;
+  	&lt;/<span style="color:#f92672">style</span>&gt;
+&lt;/<span style="color:#f92672">figure</span>&gt;
+{{ end }}</code></pre></td></tr></table>
+</div>
+</div></p>
+
+<figure>
+  <video loop autoplay muted controls>
+    <source src="/test.mp4" type="video/mp4">
+    	
+    Your browser does not support the video tag.
+  </video>
+  
+     <figcaption> <h4> "Yeah, it works" </h4></figcaption>
+  <style type="center">
+  	</style>
+</figure>
+
+
 
 		</section>
 
 		<div class="post-tags">
 			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/tags/labs">labs</a></li>
+					
+					<li><a href="/tags/hugo">hugo</a></li>
+					
+				</ul>
+			</nav>
 			
 			
 		</div>

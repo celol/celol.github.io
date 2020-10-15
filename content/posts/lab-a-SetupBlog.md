@@ -2,7 +2,9 @@
 title: "Lab a) : Blog Setup"
 description: How I implemented this blog.
 date: 2020-10-13T14:12:53+02:00
+tldr: Followed tutorials, found ressources and used some tricks
 draft: false
+tags: [labs,hugo]
 ---
 ## Why Hugo ?
 I decided to use Hugo because of the challenge it offered. At first, because I was getting behind on the lab, I thought of using a platform that would allow me to instantly and easily create a blog like we see so much nowadays. But I decided not to fall in the *Dark Pattern* of laziness and got my hands-on Hugo.
@@ -16,7 +18,7 @@ It is the template you’re currently browsing and the built-in tutorial was eas
 I also added a browser icon thanks to this [tutorial](https://www.kiroule.com/article/add-favicon-to-hugo-based-website/). As I really wanted to adapt the theme to my taste and make it look personal, I believe the icon is a good way of achieving it.  
 
 
-{{< figure align="right" src="/android-chrome-512x512.png" title="Isn't it beautiful ?" >}}  
+{{< figure src="/android-chrome-512x512.png" title="Isn't it beautiful ?" >}}  
 
 Since the template supports the usage of emojis and even if I'm not going to overuse them, knowing how to use them is still a good [opportunity.](https://www.webfx.com/tools/emoji-cheat-sheet/) :muscle:
 
@@ -34,4 +36,28 @@ The main issue with the Hugo built-in tutorial is that it does not extensively e
 3) In your config.toml, add publishDir = "docs"
 4) From now on, you can follow Hugo's tutorial : *Deployment of Project Pages from /docs folder on master branch*
 
-My way is not one advised by Hugo's tutorial (at least for the theme part), but it's the only way I found for my website to work. Professionnally speaking, this not an ideal way of building a website, since the docs repository is only a part of the GitHub repo, but since I can build my blog locally at first it is safe to use.
+My way is not one advised by Hugo's tutorial (at least for the theme part), but it's the only way I found for my website to work. Professionnally speaking, this not an ideal way of building a website, since the docs repository is only a part of the GitHub repo, but since I can build my blog locally at first it is safe to use.  
+
+## What I added to the theme ?
+
+I really wanted to be able to embed local videos on my blog. Obviously, it is possible to directly embed Youtube videos in a markdown file but for fast created content it was much easier for me to host them directly in my repo.  
+
+To do so, I created my own video [shortcode](https://gohugo.io/templates/shortcode-templates/) :
+{{< highlight html "linenos=table,linenostart=1" >}}
+{{ with .Get "mp4"}}
+<figure>
+  <video loop autoplay muted controls>
+    <source src="{{ . }}" type="video/mp4">
+    	{{ end }}
+    Your browser does not support the video tag.
+  </video>
+  {{ with .Get "caption"}}
+     <figcaption> <h4> "{{ . }}" </h4></figcaption>
+  <style type="center">
+  	</style>
+</figure>
+{{ end }}
+
+{{< / highlight >}}  
+  
+{{< videofig mp4="/test.mp4" loop=true autoplay=true caption="Yeah, it works" >}}

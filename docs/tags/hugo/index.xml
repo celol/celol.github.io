@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on My Blog : Célestin HERNANDEZ</title>
+    <link>/tags/hugo/</link>
+    <description>Recent content in hugo on My Blog : Célestin HERNANDEZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Oct 2020 14:12:53 +0200</lastBuildDate><atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lab a) : Blog Setup</title>
+      <link>/posts/lab-a-setupblog/</link>
+      <pubDate>Tue, 13 Oct 2020 14:12:53 +0200</pubDate>
+      
+      <guid>/posts/lab-a-setupblog/</guid>
+      <description>Why Hugo ? I decided to use Hugo because of the challenge it offered. At first, because I was getting behind on the lab, I thought of using a platform that would allow me to instantly and easily create a blog like we see so much nowadays. But I decided not to fall in the Dark Pattern of laziness and got my hands-on Hugo.
+How I got started ? At first, I had chosen the Paper Mod which had everything to satisfy me : it was clean, minimalist and readable.</description>
+    </item>
+    
+  </channel>
+</rss>

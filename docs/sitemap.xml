@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2020-10-13T14:12:53+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/lab-a-setupblog/</loc>
+    <lastmod>2020-10-13T14:12:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/labs/</loc>
     <lastmod>2020-10-13T14:12:53+02:00</lastmod>
   </url>
   
@@ -14,6 +24,11 @@
   
   <url>
     <loc>/posts/</loc>
+    <lastmod>2020-10-13T14:12:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2020-10-13T14:12:53+02:00</lastmod>
   </url>
   
@@ -29,11 +44,6 @@
   
   <url>
     <loc>/posts/my-first-post/</loc>
-    <lastmod>2020-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-09-20T00:00:00+00:00</lastmod>
   </url>
   

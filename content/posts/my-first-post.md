@@ -11,5 +11,3 @@ It has been a long way from the very first course of HCI to the publishing of th
 {{< figure src="/test.jpg" title="Happy of my success" >}}
 
 >"That's one small step for man, one giant leap for mankind." *Or something along those lines.*
-
-
