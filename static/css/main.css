@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap');
 /* Markdown */
 :root{
---maincolor: red;
+--maincolor: purple;
 --bordercl:rebeccapurple;
 --callouctcolor:dodgerblue;
---hovercolor:navy;
+--hovercolor:black;
 --darkMaincolor: #50fa7b;
 }
 html {
@@ -31,6 +31,7 @@ p {
   font-family: 'IBM Plex Sans', sans-serif;
   line-height: 1.5;
 }
+
 
 hr {
   border: 0;

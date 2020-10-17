@@ -1,7 +1,7 @@
 ---
 title: "Lab a) : Blog Setup"
 description: How I implemented this blog.
-date: 2020-10-13T14:12:53+02:00
+date: 2020-09-17
 tldr: Followed tutorials, found ressources and used some tricks
 draft: false
 tags: [labs,hugo]

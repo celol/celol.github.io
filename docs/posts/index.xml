@@ -6,11 +6,11 @@
     <description>Recent content in Posts on My Blog : Célestin HERNANDEZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Oct 2020 14:12:53 +0200</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab a) : Blog Setup</title>
       <link>/posts/lab-a-setupblog/</link>
-      <pubDate>Tue, 13 Oct 2020 14:12:53 +0200</pubDate>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lab-a-setupblog/</guid>
       <description>Why Hugo ? I decided to use Hugo because of the challenge it offered. At first, because I was getting behind on the lab, I thought of using a platform that would allow me to instantly and easily create a blog like we see so much nowadays. But I decided not to fall in the Dark Pattern of laziness and got my hands-on Hugo.
@@ -18,9 +18,45 @@ How I got started ? At first, I had chosen the Paper Mod which had everything to
     </item>
     
     <item>
+      <title>Lab b) : Unity Setup</title>
+      <link>/posts/lab-b-unitysetup/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lab-b-unitysetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lecture 1 : Affordances</title>
+      <link>/posts/lecture1-affordances/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture1-affordances/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lecture 2 : Gestalt Laws</title>
+      <link>/posts/lecture2-gestaltlaws/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture2-gestaltlaws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lecture 3 : Dark Patterns</title>
+      <link>/posts/lecture3-darkpatterns/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture3-darkpatterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>My very first post on this blog</title>
       <link>/posts/my-first-post/</link>
-      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/my-first-post/</guid>
       <description>It has been a long way from the very first course of HCI to the publishing of this article, but we are here. I&amp;rsquo;ll explain more in depth the choices I made and the reasoning behind it in my next post about our Hugo Lab. See you there ! 👋

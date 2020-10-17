@@ -1,7 +1,7 @@
 ---
 title: My very first post on this blog
 description: This is basically a test !
-date: 2020-09-20
+date: 2020-09-17
 tldr: I've succeeded. More to come in future posts !
 draft: false
 tags: [first,test]

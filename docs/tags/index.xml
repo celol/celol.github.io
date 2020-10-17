@@ -6,11 +6,47 @@
     <description>Recent content in Tags on My Blog : Célestin HERNANDEZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Oct 2020 14:12:53 +0200</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>affordances</title>
+      <link>/tags/affordances/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/affordances/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DarkPatterns</title>
+      <link>/tags/darkpatterns/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/darkpatterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>first</title>
+      <link>/tags/first/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/first/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gestalt</title>
+      <link>/tags/gestalt/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gestalt/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hugo</title>
       <link>/tags/hugo/</link>
-      <pubDate>Tue, 13 Oct 2020 14:12:53 +0200</pubDate>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/hugo/</guid>
       <description></description>
@@ -19,27 +55,36 @@
     <item>
       <title>labs</title>
       <link>/tags/labs/</link>
-      <pubDate>Tue, 13 Oct 2020 14:12:53 +0200</pubDate>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/labs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>first</title>
-      <link>/tags/first/</link>
-      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      <title>lectures</title>
+      <link>/tags/lectures/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/first/</guid>
+      <guid>/tags/lectures/</guid>
       <description></description>
     </item>
     
     <item>
       <title>test</title>
       <link>/tags/test/</link>
-      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unity</title>
+      <link>/tags/unity/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/unity/</guid>
       <description></description>
     </item>
     
