@@ -28,7 +28,27 @@
   </url>
   
   <url>
+    <loc>/tags/hciresearcher/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/hugo/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/inputdevices/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/interactionparadigms/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ivansutherland/</loc>
     <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,6 +83,21 @@
   </url>
   
   <url>
+    <loc>/posts/lecture4-presentinghciresearcher/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/lecture5-ultimatedisplayivansutherland/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/lecture6-inputdevicesinteractionparadigms/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/lectures/</loc>
     <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
@@ -89,6 +124,11 @@
   
   <url>
     <loc>/tags/test/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ultimatedisplay/</loc>
     <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
   

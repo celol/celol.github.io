@@ -33,7 +33,8 @@ How I got started ? At first, I had chosen the Paper Mod which had everything to
       <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lab-b-unitysetup/</guid>
-      <description></description>
+      <description>Unity ? At the beginning of this course, we had already installed Unity because of our Computer Graphics course. Obviously I had to make sure that my Unity setup was the right one and I also had to add the Android Build Support as suggested by the lab tutorial.
+Other than that, I did not have any problems setting up my environment and decided to practice Unity by working on my Computer Graphics&#39; project.</description>
     </item>
     
     <item>
@@ -42,7 +43,8 @@ How I got started ? At first, I had chosen the Paper Mod which had everything to
       <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lecture1-affordances/</guid>
-      <description></description>
+      <description>Finding a good and a bad affordance. When we talked about affordances in our course, the main example that I kept in mind was the one about door handles. I had never truly thought about their design, but once we talked about it, I was able to vividly remeber the many times in which I pushed instead of pulled and wondered who was the designer of such an atrocity.
+That&amp;rsquo;s why my first example of a daily affordance is this door handle:</description>
     </item>
     
     <item>
@@ -51,7 +53,7 @@ How I got started ? At first, I had chosen the Paper Mod which had everything to
       <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lecture2-gestaltlaws/</guid>
-      <description></description>
+      <description>Gestalt laws, an old passion of mine. When we talked about Gestalt laws during our lecture, I immediatly thought about the dontdeadopeninside and CrappyDesign subreddits. If you&amp;rsquo;ve never checked them out, I can only recommend you to do so. They basically concatenates the very best of the worst of design, and were basically used as the a precious database for this lecture. What was truly insightful for me during this lecture was the fact that I had always laughed about problems like these without ever even knowing that they were related to Gestalt Laws.</description>
     </item>
     
     <item>
@@ -60,6 +62,34 @@ How I got started ? At first, I had chosen the Paper Mod which had everything to
       <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lecture3-darkpatterns/</guid>
+      <description>Finding and documenting two Dark Design Patterns. This lecture has hag a great echo on me, and has helped me realise how sneaky and insidious Dark Design Patterns truly are.
+As for the first example I decided to document, I decided to give you a bit of context on how I came across this Dark Pattern. I recently had to change my laptop and I chose this one :   My new setup just for attention, please notice that I&amp;#39;m using it to work   I chose a french market place to buy it and since it was pretty expensive, I wanted to save as much money as I could.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 4 : Presenting one HCI Researcher</title>
+      <link>/posts/lecture4-presentinghciresearcher/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture4-presentinghciresearcher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lecture 5 : The Ultimate Display by Ivan Sutherland</title>
+      <link>/posts/lecture5-ultimatedisplayivansutherland/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture5-ultimatedisplayivansutherland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lecture 6 : Input Devices and Interaction Paradigms</title>
+      <link>/posts/lecture6-inputdevicesinteractionparadigms/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture6-inputdevicesinteractionparadigms/</guid>
       <description></description>
     </item>
     

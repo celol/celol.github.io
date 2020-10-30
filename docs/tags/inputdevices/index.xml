@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>InputDevices on My Blog : Célestin HERNANDEZ</title>
+    <link>/tags/inputdevices/</link>
+    <description>Recent content in InputDevices on My Blog : Célestin HERNANDEZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/inputdevices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 6 : Input Devices and Interaction Paradigms</title>
+      <link>/posts/lecture6-inputdevicesinteractionparadigms/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture6-inputdevicesinteractionparadigms/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
