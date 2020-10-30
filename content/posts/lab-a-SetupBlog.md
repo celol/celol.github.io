@@ -57,7 +57,6 @@ To do so, I created my own video [shortcode](https://gohugo.io/templates/shortco
   	</style>
 </figure>
 {{ end }}
-
 {{< / highlight >}}  
   
 {{< videofig mp4="/test.mp4" loop=true autoplay=true caption="Yeah, it works" >}}

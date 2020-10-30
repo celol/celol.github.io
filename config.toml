@@ -4,7 +4,6 @@ title = "My Blog : Célestin HERNANDEZ"
 enableEmoji="True"
 publishDir = "docs"
 
-
 [params]
 	subtitle="This blog is designed for my [VAR Master](https://www.ip-paris.fr/maste-2-virtual-augmented-reality/) and its HCI Course."
 
