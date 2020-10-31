@@ -21,7 +21,7 @@ So, what is exactly happening in this picture ?
 
 Basically, we are told that a partner from the marketplace is offering us a 15€ cashback on our order. The tick box to get it is already clicked and we are kind of comforted by the fact this is offer by an "official" partner of the website. But things get dodgy if you don't untick that box.
 
-First dodgy thing is that you are going to get redirected to an off-party website. You could think that this may be normal at first, but if you pay close attention to the smalls Conditions&Terms, you will notice that you are actually subscribing to a completely unrelated service for which you will pay more than twice the amount you're getting refunded, per month. You have actually clicked on an ad and were nearly ripped off of some precious money.
+First dodgy thing is that you are going to get redirected to an off-party website. You could think that this may be normal at first, but if you pay close attention to the smalls Conditions & Terms, you will notice that you are actually subscribing to a completely unrelated service for which you will pay more than twice the amount you're getting refunded, per month. You have actually clicked on an ad and were nearly ripped off of some precious money.
 
 Several french websites have already been sued for these practices, but they claim that they cannot entirely control ads and it is the responsibility of the customer to check for what he's going to subscribe to. The main problem about this is the fact that the ad is using the website fame to claim credibility for itself. If carefree people don't thoroughly pay attention they will definetly loose money.   
    
@@ -34,3 +34,11 @@ As a student, it happens to me quite a lot to try and get as much ressources as 
 What's misleading here is that what you're downloading is not free but it is branded as such. We often forget the value behind our personal data and this dark pattern takes advantage of it.
 
 ## Transforming these patterns.
+
+To solve the first Dark Pattern, I'd like to propose the following solution :
+{{< figure src="/DarkPattern1Solved.jpg" title="Proposed solution" >}} 
+
+As a solution, we truly advertise users that what they are seeing is part of an ad. We also emphasize that this is not a partner's website and that our customers may need to pay an extra fee for the service they are offered. Furthermore, a pop up could appear if the ad is clicked reminding once more to the user that he is exiting the actual website.
+
+To solve the second one we apply kind of the same strategy, by trying to remind as much as possible that is not a free transaction. We deleted the download and button to replace by a subcribe to download button, once again emphasizing the transaction being made.
+{{< figure src="/DarkPattern2Solved.jpg" title="Proposed solution" >}} 

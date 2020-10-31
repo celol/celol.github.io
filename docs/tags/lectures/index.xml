@@ -18,6 +18,33 @@ That&amp;rsquo;s why my first example of a daily affordance is this door handle:
     </item>
     
     <item>
+      <title>Lecture 10 : The shape of smartphones</title>
+      <link>/posts/lecture10-theshapeofsmartphones/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture10-theshapeofsmartphones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lecture 11 : Computer of the 21st Century</title>
+      <link>/posts/lecture11-computer21stcentury/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture11-computer21stcentury/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lecture 12 : Most Downloaded Application in the future MR App Store </title>
+      <link>/posts/lecture12-mrappstore/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture12-mrappstore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Lecture 2 : Gestalt Laws</title>
       <link>/posts/lecture2-gestaltlaws/</link>
       <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
@@ -42,7 +69,9 @@ As for the first example I decided to document, I decided to give you a bit of c
       <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lecture4-presentinghciresearcher/</guid>
-      <description></description>
+      <description>Finding an HCI Reasearcher To find the perfect candidate for this lecture, I decided to use a classical technique. I went on Google Scholar, typed in Human Computer Interaction and checked the authors of the most quoted papers.
+That&amp;rsquo;s how I came across Gregory D. Abowd, because he is one of the coauthors of the second edition of the HCI&amp;rsquo;s Bible : &amp;ldquo;Human-computer interaction&amp;rdquo;.
+  The man himself   Presenting Gregory D.</description>
     </item>
     
     <item>
@@ -51,15 +80,25 @@ As for the first example I decided to document, I decided to give you a bit of c
       <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lecture5-ultimatedisplayivansutherland/</guid>
-      <description></description>
+      <description>What has Ivan Sutherland successfully predicted ? In his 1965 article The Ultimate Display, Ivan Sutherland wonders what the future will look like for computers, displays and the human interactions that will take place between them. To sum up efficiently which of his predictions were true, I will directly quote him and try to explain what he was describing that is actually existing today.
+  &amp;ldquo;It is likely that new display equipment will have area-filling capability.</description>
     </item>
     
     <item>
       <title>Lecture 6 : Input Devices and Interaction Paradigms</title>
-      <link>/posts/lecture6-inputdevicesinteractionparadigms/</link>
+      <link>/posts/lecture6-inputdevicesinteractionparadigms-copie/</link>
       <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/lecture6-inputdevicesinteractionparadigms/</guid>
+      <guid>/posts/lecture6-inputdevicesinteractionparadigms-copie/</guid>
+      <description>Presenting and classifying a new/failed input device/technique While browsing the internet to find a new type of input device I came across what i first thought to be an atrocity.   Meet the OrbiTouch, the keyless mouse and keyboard   As the description suggests, the OrbiTouch acts as a keyboard and mouse. You could argue that it might me a gesture driven interface but I&amp;rsquo;ll leave it as a GUI.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 7, 8 &amp; 9 : Ideate, Sketch, Use and Evaluate</title>
+      <link>/posts/lecture7-8-9-ideateprototypeusage/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture7-8-9-ideateprototypeusage/</guid>
       <description></description>
     </item>
     

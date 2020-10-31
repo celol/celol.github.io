@@ -13,6 +13,16 @@
   </url>
   
   <url>
+    <loc>/tags/application/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/computer21st/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/darkpatterns/</loc>
     <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
@@ -34,6 +44,11 @@
   
   <url>
     <loc>/tags/hugo/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ideatesketchuseevaluate/</loc>
     <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,12 +78,32 @@
   </url>
   
   <url>
+    <loc>/posts/lab-c-firstunityapp/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/labs/</loc>
     <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/lecture1-affordances/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/lecture10-theshapeofsmartphones/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/lecture11-computer21stcentury/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/lecture12-mrappstore/</loc>
     <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -93,12 +128,22 @@
   </url>
   
   <url>
-    <loc>/posts/lecture6-inputdevicesinteractionparadigms/</loc>
+    <loc>/posts/lecture6-inputdevicesinteractionparadigms-copie/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/lecture7-8-9-ideateprototypeusage/</loc>
     <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/lectures/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/mrappstore/</loc>
     <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -114,6 +159,11 @@
   
   <url>
     <loc>/posts/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/shapesmartphones/</loc>
     <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
   

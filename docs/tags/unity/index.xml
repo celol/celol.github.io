@@ -17,5 +17,15 @@
 Other than that, I did not have any problems setting up my environment and decided to practice Unity by working on my Computer Graphics&#39; project.</description>
     </item>
     
+    <item>
+      <title>Lab c) : Build your first Unity3D Application</title>
+      <link>/posts/lab-c-firstunityapp/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lab-c-firstunityapp/</guid>
+      <description>Choosing a project and following its tutorial. For this lab, I decided to follow the Roll a Ball tutorial from Unity. This tutorial alongside the one we got during the lab were enough to get the basics down. And I did not have any problems whatsoever. But I wanted my implementation to be a bit different.
+Making my game unique. To give my game a bit of IP Paris spiciness, I added a few things.</description>
+    </item>
+    
   </channel>
 </rss>
