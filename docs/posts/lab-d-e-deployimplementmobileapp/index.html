@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html><link
+rel="apple-touch-icon"
+sizes="180x180"
+href="/apple-touch-icon.png">
+
+<link
+rel="icon"
+type="image/png"
+sizes="32x32"
+href="/favicon-32x32.png">
+
+<link
+rel="icon"
+type="image/png"
+sizes="16x16"
+href="/favicon-16x16.png">
+
+<link
+rel="manifest"
+href="/site.webmanifest">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Lab d) &amp; e) : Deploying and Implementing a Mobile Application - My Blog : Célestin HERNANDEZ</title><meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:description" content="Roll a Ball to Mobile." />
+	<meta name="twitter:description" content="Roll a Ball to Mobile." />
+	<meta name="description" content="Roll a Ball to Mobile." />
+	<meta name="description" content="Roll a Ball to Mobile." />
+
+	<meta property="og:title" content="Lab d) &amp; e) : Deploying and Implementing a Mobile Application | My Blog : Célestin HERNANDEZ" />
+	<meta name="twitter:title" content="Lab d) &amp; e) : Deploying and Implementing a Mobile Application | My Blog : Célestin HERNANDEZ" />
+
+	<meta property="og:image" content=""/>
+	<meta itemprop="name" content="Lab d) &amp; e) : Deploying and Implementing a Mobile Application | My Blog : Célestin HERNANDEZ" />
+	<meta name="application-name" content="Lab d) &amp; e) : Deploying and Implementing a Mobile Application | My Blog : Célestin HERNANDEZ" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:title" content="Lab d) &amp; e) : Deploying and Implementing a Mobile Application" />
+<meta property="og:description" content="Roll a Ball to Mobile." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/lab-d-e-deployimplementmobileapp/" />
+<meta property="article:published_time" content="2020-09-17T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-09-17T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Lab d) &amp; e) : Deploying and Implementing a Mobile Application"/>
+<meta name="twitter:description" content="Roll a Ball to Mobile."/>
+<script src="/js/feather.min.js"></script>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+</head><body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="/">My Blog : Célestin HERNANDEZ</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Lab d) &amp; e) : Deploying and Implementing a Mobile Application</h1>
+			<div class="meta">Posted on Sep 17, 2020</div>
+		</div>
+		
+
+		<section class="body">
+			<h2 id="deploying-mobile-app">Deploying Mobile App</h2>
+<p>To deploy my mobile App, I followed the lab tutorial but encountered a problem when I needed to build the app :</p>
+<blockquote>
+<p><em>Unable to update the SDK. Please run the SDK Manager manually to make sure you have the latest set of tools and the required platforms installed. See console log for details.</em></p>
+</blockquote>
+<p>Well this one was a quick fix, I had to reinstall Unity&rsquo;s tools and it worked but I came across another error while trying to build:</p>
+<blockquote>
+<p><em>Error building Player because scripts have compile errors in the editor</em></p>
+</blockquote>
+<p>This was once again a quick fix : When I imported my asset of skybox, there was a script in it which was using UnityEditor which impeded the building process. Simply erasing this file allowed me to build !</p>
+<p>Since my phone has a broken usb port I was not able to plug and test and decided to build straight away.</p>
+
+<figure>
+  <video height=360 width=640 controls>
+    <source src="/FirstMobileBuild.mp4" type="video/mp4">
+    	
+    Your browser does not support the video tag.
+  </video>
+  
+     <figcaption> <h4> "Yeah, it works" </h4></figcaption>
+</figure>
+
+
+<h2 id="implementing-accelerometer">Implementing Accelerometer</h2>
+<p>Following the lab tutorial I did not have any problems, except the fact that I found it hard juggling between two builds versions in the same script&hellip; Like I&rsquo;m not entirely sure that my script can support transitions from Windows Build to Android but it works for Android. Also it was not comfortable for me to have to build, send, install each and every time I wanted to test my game so I believe I could have been more efficient.</p>
+<p>Either way here&rsquo;s the <a href="https://github.com/celol/AndroidRollABall">final version</a> ! 😄</p>
+
+<figure>
+  <video height=360 width=640 controls>
+    <source src="/FinalMobileBuild.mp4" type="video/mp4">
+    	
+    Your browser does not support the video tag.
+  </video>
+  
+     <figcaption> <h4> "Yeah, it works also" </h4></figcaption>
+</figure>
+
+
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/tags/labs">labs</a></li>
+					
+					<li><a href="/tags/unity">Unity</a></li>
+					
+					<li><a href="/tags/mobile">Mobile</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+	</article>
+</main>
+<footer>
+<hr><a class="soc" href="https://github.com/celol" title="GitHub"><i data-feather="github"></i></a>|
+ <a href="https://github.com/athul/archie">Using Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+</footer>
+
+
+<script>
+      feather.replace()
+</script></div>
+    </body>
+</html>

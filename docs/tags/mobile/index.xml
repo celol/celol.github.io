@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile on My Blog : Célestin HERNANDEZ</title>
+    <link>/tags/mobile/</link>
+    <description>Recent content in Mobile on My Blog : Célestin HERNANDEZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lab d) &amp; e) : Deploying and Implementing a Mobile Application</title>
+      <link>/posts/lab-d-e-deployimplementmobileapp/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lab-d-e-deployimplementmobileapp/</guid>
+      <description>Deploying Mobile App To deploy my mobile App, I followed the lab tutorial but encountered a problem when I needed to build the app :
+ Unable to update the SDK. Please run the SDK Manager manually to make sure you have the latest set of tools and the required platforms installed. See console log for details.
+ Well this one was a quick fix, I had to reinstall Unity&amp;rsquo;s tools and it worked but I came across another error while trying to build:</description>
+    </item>
+    
+  </channel>
+</rss>

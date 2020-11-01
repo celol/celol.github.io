@@ -38,6 +38,26 @@ Making my game unique. To give my game a bit of IP Paris spiciness, I added a fe
     </item>
     
     <item>
+      <title>Lab d) &amp; e) : Deploying and Implementing a Mobile Application</title>
+      <link>/posts/lab-d-e-deployimplementmobileapp/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lab-d-e-deployimplementmobileapp/</guid>
+      <description>Deploying Mobile App To deploy my mobile App, I followed the lab tutorial but encountered a problem when I needed to build the app :
+ Unable to update the SDK. Please run the SDK Manager manually to make sure you have the latest set of tools and the required platforms installed. See console log for details.
+ Well this one was a quick fix, I had to reinstall Unity&amp;rsquo;s tools and it worked but I came across another error while trying to build:</description>
+    </item>
+    
+    <item>
+      <title>Lab f) : VR Roll-a-Ball Unity</title>
+      <link>/posts/lab-f-rollaballvr/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lab-f-rollaballvr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Lecture 1 : Affordances</title>
       <link>/posts/lecture1-affordances/</link>
       <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
@@ -53,7 +73,8 @@ That&amp;rsquo;s why my first example of a daily affordance is this door handle:
       <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lecture10-theshapeofsmartphones/</guid>
-      <description></description>
+      <description>Discussing the evolution of shape of smartphones. Why did they change their shape ?   Simplified evolution   This picture may be considered off topic or too caricatural, but I believe it displays perfectly the evolutions the smartphone&amp;rsquo;s (and cellphone&amp;rsquo;s) shape has faced throughout the years.
+The first phone of its kind was a big technological leap, so its design was not truly its best asset. Of course it did fit the shape of the hand but it looked so bulky and hard to maneuver.</description>
     </item>
     
     <item>
@@ -62,7 +83,7 @@ That&amp;rsquo;s why my first example of a daily affordance is this door handle:
       <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lecture11-computer21stcentury/</guid>
-      <description></description>
+      <description>Are we already living in a world of ubiquitous computing ? What already happened that we need for this vision and what needs to happen so that we get more towards ubiquitous computing ? </description>
     </item>
     
     <item>
@@ -71,7 +92,8 @@ That&amp;rsquo;s why my first example of a daily affordance is this door handle:
       <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lecture12-mrappstore/</guid>
-      <description></description>
+      <description>Sketching and presenting three application that will be among the most downloaded in the future MR AppStore Okay so I&amp;rsquo;m definetly not the best Paint3D user and the quality may not be top notch, but I do believe that drawings are the best way to convey ideas. I&amp;rsquo;ll present 3 basic app ideas that may not be revolutionnary but will sure be succesful if they end up actually existing.
+Your browser does not support the video tag.</description>
     </item>
     
     <item>

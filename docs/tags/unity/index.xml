@@ -27,5 +27,25 @@ Other than that, I did not have any problems setting up my environment and decid
 Making my game unique. To give my game a bit of IP Paris spiciness, I added a few things.</description>
     </item>
     
+    <item>
+      <title>Lab d) &amp; e) : Deploying and Implementing a Mobile Application</title>
+      <link>/posts/lab-d-e-deployimplementmobileapp/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lab-d-e-deployimplementmobileapp/</guid>
+      <description>Deploying Mobile App To deploy my mobile App, I followed the lab tutorial but encountered a problem when I needed to build the app :
+ Unable to update the SDK. Please run the SDK Manager manually to make sure you have the latest set of tools and the required platforms installed. See console log for details.
+ Well this one was a quick fix, I had to reinstall Unity&amp;rsquo;s tools and it worked but I came across another error while trying to build:</description>
+    </item>
+    
+    <item>
+      <title>Lab f) : VR Roll-a-Ball Unity</title>
+      <link>/posts/lab-f-rollaballvr/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lab-f-rollaballvr/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
