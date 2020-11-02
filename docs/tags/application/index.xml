@@ -6,11 +6,11 @@
     <description>Recent content in Application on My Blog : Célestin HERNANDEZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/application/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/application/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab c) : Build your first Unity3D Application</title>
       <link>/posts/lab-c-firstunityapp/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lab-c-firstunityapp/</guid>
       <description>Choosing a project and following its tutorial. For this lab, I decided to follow the Roll a Ball tutorial from Unity. This tutorial alongside the one we got during the lab were enough to get the basics down. And I did not have any problems whatsoever. But I wanted my implementation to be a bit different.

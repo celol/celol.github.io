@@ -1,7 +1,7 @@
 ---
-title: "Lecture 1 : Affordances"
+title: "Lecture 01 : Affordances"
 description: Which affordances I encountered in my daily life and how I decided to solve the bad one. 
-date: 2020-09-17
+date: 2020-11-02
 tldr: Handles, handles, more handles...
 draft: false
 tags: [lectures,affordances]

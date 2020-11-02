@@ -1,7 +1,7 @@
 ---
-title: "Lecture 3 : Dark Patterns"
+title: "Lecture 03 : Dark Patterns"
 description: Presentation and reflexion on how to transform them.
-date: 2020-09-17
+date: 2020-11-02
 draft: false
 tags: [lectures,DarkPatterns]
 ---

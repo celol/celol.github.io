@@ -1,7 +1,7 @@
 ---
-title: "Lecture 4 : Presenting one HCI Researcher"
+title: "Lecture 04 : Presenting one HCI Researcher"
 description: Presentation of the researcher and one of his current works
-date: 2020-09-17
+date: 2020-11-02
 draft: false
 tags: [lectures,HCIResearcher]
 ---

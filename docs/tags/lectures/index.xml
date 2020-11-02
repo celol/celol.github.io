@@ -6,11 +6,11 @@
     <description>Recent content in lectures on My Blog : Célestin HERNANDEZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/lectures/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/lectures/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lecture 1 : Affordances</title>
+      <title>Lecture 01 : Affordances</title>
       <link>/posts/lecture1-affordances/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lecture1-affordances/</guid>
       <description>Finding a good and a bad affordance. When we talked about affordances in our course, the main example that I kept in mind was the one about door handles. I had never truly thought about their design, but once we talked about it, I was able to vividly remeber the many times in which I pushed instead of pulled and wondered who was the designer of such an atrocity.
@@ -18,9 +18,67 @@ That&amp;rsquo;s why my first example of a daily affordance is this door handle:
     </item>
     
     <item>
+      <title>Lecture 02 : Gestalt Laws</title>
+      <link>/posts/lecture2-gestaltlaws/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture2-gestaltlaws/</guid>
+      <description>Gestalt laws, an old passion of mine. When we talked about Gestalt laws during our lecture, I immediatly thought about the dontdeadopeninside and CrappyDesign subreddits. If you&amp;rsquo;ve never checked them out, I can only recommend you to do so. They basically concatenates the very best of the worst of design, and were basically used as the a precious database for this lecture. What was truly insightful for me during this lecture was the fact that I had always laughed about problems like these without ever even knowing that they were related to Gestalt Laws.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 03 : Dark Patterns</title>
+      <link>/posts/lecture3-darkpatterns/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture3-darkpatterns/</guid>
+      <description>Finding and documenting two Dark Design Patterns. This lecture has hag a great echo on me, and has helped me realise how sneaky and insidious Dark Design Patterns truly are.
+As for the first example I decided to document, I decided to give you a bit of context on how I came across this Dark Pattern. I recently had to change my laptop and I chose this one :   My new setup just for attention, please notice that I&amp;#39;m using it to work   I chose a french market place to buy it and since it was pretty expensive, I wanted to save as much money as I could.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 04 : Presenting one HCI Researcher</title>
+      <link>/posts/lecture4-presentinghciresearcher/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture4-presentinghciresearcher/</guid>
+      <description>Finding an HCI Reasearcher To find the perfect candidate for this lecture, I decided to use a classical technique. I went on Google Scholar, typed in Human Computer Interaction and checked the authors of the most quoted papers.
+That&amp;rsquo;s how I came across Gregory D. Abowd, because he is one of the coauthors of the second edition of the HCI&amp;rsquo;s Bible : &amp;ldquo;Human-computer interaction&amp;rdquo;.
+  The man himself   Presenting Gregory D.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 05 : The Ultimate Display by Ivan Sutherland</title>
+      <link>/posts/lecture5-ultimatedisplayivansutherland/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture5-ultimatedisplayivansutherland/</guid>
+      <description>What has Ivan Sutherland successfully predicted ? In his 1965 article The Ultimate Display, Ivan Sutherland wonders what the future will look like for computers, displays and the human interactions that will take place between them. To sum up efficiently which of his predictions were true, I will directly quote him and try to explain what he was describing that is actually existing today.
+  &amp;ldquo;It is likely that new display equipment will have area-filling capability.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 06 : Input Devices and Interaction Paradigms</title>
+      <link>/posts/lecture6-inputdevicesinteractionparadigms-copie/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture6-inputdevicesinteractionparadigms-copie/</guid>
+      <description>Presenting and classifying a new/failed input device/technique While browsing the internet to find a new type of input device I came across what i first thought to be an atrocity.   Meet the OrbiTouch, the keyless mouse and keyboard   As the description suggests, the OrbiTouch acts as a keyboard and mouse. You could argue that it might me a gesture driven interface but I&amp;rsquo;ll leave it as a GUI.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 07, 08 &amp; 09 : Ideate, Sketch, Use and Evaluate</title>
+      <link>/posts/lecture7-8-9-ideateprototypeusage/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/lecture7-8-9-ideateprototypeusage/</guid>
+      <description>Ideating at least three potential human abilities enhancing apps in AR. Okay so right out of the gate when I heard enhacing human abilities I immediatly thought about sports because this is where our most basic abilities as animals are displayed. I&amp;rsquo;m not a huge sports person and that&amp;rsquo;s because I&amp;rsquo;m not that good at coaching myself. I either lack motivation or advices to successfully complete programs / exercises. That&amp;rsquo;s why I would to introduce you to A(R)pollon.</description>
+    </item>
+    
+    <item>
       <title>Lecture 10 : The shape of smartphones</title>
       <link>/posts/lecture10-theshapeofsmartphones/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lecture10-theshapeofsmartphones/</guid>
       <description>Discussing the evolution of shape of smartphones. Why did they change their shape ?   Simplified evolution   This picture may be considered off topic or too caricatural, but I believe it displays perfectly the evolutions the smartphone&amp;rsquo;s (and cellphone&amp;rsquo;s) shape has faced throughout the years.
@@ -30,7 +88,7 @@ The first phone of its kind was a big technological leap, so its design was not 
     <item>
       <title>Lecture 11 : Computer of the 21st Century</title>
       <link>/posts/lecture11-computer21stcentury/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lecture11-computer21stcentury/</guid>
       <description>Are we already living in a world of ubiquitous computing ? If we follow Mark Wesiser&amp;rsquo;s point of view that I&amp;rsquo;ll describe below, we are not yet in a world of ubiquitous computing but I do believe that we are getting pretty close to it. The IoT and the always expanding capabilities of our devices has brought us closer to such a world. I believe that we have all the pieces (nearly) to build such a world but this is not our priority right now and I guess our generation is not ready for it.</description>
@@ -39,69 +97,11 @@ The first phone of its kind was a big technological leap, so its design was not 
     <item>
       <title>Lecture 12 : Most Downloaded Application in the future MR App Store </title>
       <link>/posts/lecture12-mrappstore/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lecture12-mrappstore/</guid>
       <description>Sketching and presenting three application that will be among the most downloaded in the future MR AppStore. Okay so I&amp;rsquo;m definetly not the best Paint3D user and the quality may not be top notch, but I do believe that drawings are the best way to convey ideas. I&amp;rsquo;ll present 3 basic app ideas that may not be revolutionnary but will sure be succesful if they end up actually existing.
 Your browser does not support the video tag.</description>
-    </item>
-    
-    <item>
-      <title>Lecture 2 : Gestalt Laws</title>
-      <link>/posts/lecture2-gestaltlaws/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/lecture2-gestaltlaws/</guid>
-      <description>Gestalt laws, an old passion of mine. When we talked about Gestalt laws during our lecture, I immediatly thought about the dontdeadopeninside and CrappyDesign subreddits. If you&amp;rsquo;ve never checked them out, I can only recommend you to do so. They basically concatenates the very best of the worst of design, and were basically used as the a precious database for this lecture. What was truly insightful for me during this lecture was the fact that I had always laughed about problems like these without ever even knowing that they were related to Gestalt Laws.</description>
-    </item>
-    
-    <item>
-      <title>Lecture 3 : Dark Patterns</title>
-      <link>/posts/lecture3-darkpatterns/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/lecture3-darkpatterns/</guid>
-      <description>Finding and documenting two Dark Design Patterns. This lecture has hag a great echo on me, and has helped me realise how sneaky and insidious Dark Design Patterns truly are.
-As for the first example I decided to document, I decided to give you a bit of context on how I came across this Dark Pattern. I recently had to change my laptop and I chose this one :   My new setup just for attention, please notice that I&amp;#39;m using it to work   I chose a french market place to buy it and since it was pretty expensive, I wanted to save as much money as I could.</description>
-    </item>
-    
-    <item>
-      <title>Lecture 4 : Presenting one HCI Researcher</title>
-      <link>/posts/lecture4-presentinghciresearcher/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/lecture4-presentinghciresearcher/</guid>
-      <description>Finding an HCI Reasearcher To find the perfect candidate for this lecture, I decided to use a classical technique. I went on Google Scholar, typed in Human Computer Interaction and checked the authors of the most quoted papers.
-That&amp;rsquo;s how I came across Gregory D. Abowd, because he is one of the coauthors of the second edition of the HCI&amp;rsquo;s Bible : &amp;ldquo;Human-computer interaction&amp;rdquo;.
-  The man himself   Presenting Gregory D.</description>
-    </item>
-    
-    <item>
-      <title>Lecture 5 : The Ultimate Display by Ivan Sutherland</title>
-      <link>/posts/lecture5-ultimatedisplayivansutherland/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/lecture5-ultimatedisplayivansutherland/</guid>
-      <description>What has Ivan Sutherland successfully predicted ? In his 1965 article The Ultimate Display, Ivan Sutherland wonders what the future will look like for computers, displays and the human interactions that will take place between them. To sum up efficiently which of his predictions were true, I will directly quote him and try to explain what he was describing that is actually existing today.
-  &amp;ldquo;It is likely that new display equipment will have area-filling capability.</description>
-    </item>
-    
-    <item>
-      <title>Lecture 6 : Input Devices and Interaction Paradigms</title>
-      <link>/posts/lecture6-inputdevicesinteractionparadigms-copie/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/lecture6-inputdevicesinteractionparadigms-copie/</guid>
-      <description>Presenting and classifying a new/failed input device/technique While browsing the internet to find a new type of input device I came across what i first thought to be an atrocity.   Meet the OrbiTouch, the keyless mouse and keyboard   As the description suggests, the OrbiTouch acts as a keyboard and mouse. You could argue that it might me a gesture driven interface but I&amp;rsquo;ll leave it as a GUI.</description>
-    </item>
-    
-    <item>
-      <title>Lecture 7, 8 &amp; 9 : Ideate, Sketch, Use and Evaluate</title>
-      <link>/posts/lecture7-8-9-ideateprototypeusage/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/lecture7-8-9-ideateprototypeusage/</guid>
-      <description>test test</description>
     </item>
     
   </channel>

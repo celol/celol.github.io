@@ -6,11 +6,11 @@
     <description>Recent content in labs on My Blog : Célestin HERNANDEZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/labs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/labs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab a) : Blog Setup</title>
       <link>/posts/lab-a-setupblog/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lab-a-setupblog/</guid>
       <description>Why Hugo ? I decided to use Hugo because of the challenge it offered. At first, because I was getting behind on the lab, I thought of using a platform that would allow me to instantly and easily create a blog like we see so much nowadays. But I decided not to fall in the Dark Pattern of laziness and got my hands-on Hugo.
@@ -20,7 +20,7 @@ How I got started ? At first, I had chosen the Paper Mod which had everything to
     <item>
       <title>Lab b) : Unity Setup // Computer Graphics&#39; 3D platformer</title>
       <link>/posts/lab-b-unitysetup/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lab-b-unitysetup/</guid>
       <description>Unity ? At the beginning of this course, we had already installed Unity because of our Computer Graphics course. Obviously I had to make sure that my Unity setup was the right one and I also had to add the Android Build Support as suggested by the lab tutorial.
@@ -30,7 +30,7 @@ Other than that, I did not have any problems setting up my environment and decid
     <item>
       <title>Lab c) : Build your first Unity3D Application</title>
       <link>/posts/lab-c-firstunityapp/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lab-c-firstunityapp/</guid>
       <description>Choosing a project and following its tutorial. For this lab, I decided to follow the Roll a Ball tutorial from Unity. This tutorial alongside the one we got during the lab were enough to get the basics down. And I did not have any problems whatsoever. But I wanted my implementation to be a bit different.
@@ -40,7 +40,7 @@ Making my game unique. To give my game a bit of IP Paris spiciness, I added a fe
     <item>
       <title>Lab d) &amp; e) : Deploying and Implementing a Mobile Application</title>
       <link>/posts/lab-d-e-deployimplementmobileapp/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lab-d-e-deployimplementmobileapp/</guid>
       <description>Deploying Mobile App To deploy my mobile App, I followed the lab tutorial but encountered a problem when I needed to build the app :
@@ -51,7 +51,7 @@ Making my game unique. To give my game a bit of IP Paris spiciness, I added a fe
     <item>
       <title>Lab f) : VR Roll-a-Ball Unity and course&#39;s feedback</title>
       <link>/posts/lab-f-rollaballvr/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lab-f-rollaballvr/</guid>
       <description>A VR Implementation that became a failure. Well, this is not the happiest I&amp;rsquo;ve been. I had kept the VR Lab as far away as I could from me but maybe I should have put more thought in it because it ended up as a complete failure but I still want to write a blogpost for it.

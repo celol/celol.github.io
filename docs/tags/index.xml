@@ -6,11 +6,11 @@
     <description>Recent content in Tags on My Blog : Célestin HERNANDEZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>affordances</title>
       <link>/tags/affordances/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/affordances/</guid>
       <description></description>
@@ -19,7 +19,7 @@
     <item>
       <title>Application</title>
       <link>/tags/application/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/application/</guid>
       <description></description>
@@ -28,7 +28,7 @@
     <item>
       <title>Computer21st</title>
       <link>/tags/computer21st/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/computer21st/</guid>
       <description></description>
@@ -37,9 +37,144 @@
     <item>
       <title>DarkPatterns</title>
       <link>/tags/darkpatterns/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/darkpatterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gestalt</title>
+      <link>/tags/gestalt/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gestalt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HCIResearcher</title>
+      <link>/tags/hciresearcher/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hciresearcher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IdeateSketchUseEvaluate</title>
+      <link>/tags/ideatesketchuseevaluate/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ideatesketchuseevaluate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>InputDevices</title>
+      <link>/tags/inputdevices/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/inputdevices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>InteractionParadigms</title>
+      <link>/tags/interactionparadigms/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/interactionparadigms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IvanSutherland</title>
+      <link>/tags/ivansutherland/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ivansutherland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>labs</title>
+      <link>/tags/labs/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/labs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lectures</title>
+      <link>/tags/lectures/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/lectures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>/tags/mobile/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MRAppStore</title>
+      <link>/tags/mrappstore/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mrappstore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ShapeSmartphones</title>
+      <link>/tags/shapesmartphones/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/shapesmartphones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UltimateDisplay</title>
+      <link>/tags/ultimatedisplay/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ultimatedisplay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unity</title>
+      <link>/tags/unity/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/unity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VR</title>
+      <link>/tags/vr/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vr/</guid>
       <description></description>
     </item>
     
@@ -53,146 +188,11 @@
     </item>
     
     <item>
-      <title>Gestalt</title>
-      <link>/tags/gestalt/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/gestalt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HCIResearcher</title>
-      <link>/tags/hciresearcher/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/hciresearcher/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>/tags/hugo/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IdeateSketchUseEvaluate</title>
-      <link>/tags/ideatesketchuseevaluate/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/ideatesketchuseevaluate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>InputDevices</title>
-      <link>/tags/inputdevices/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/inputdevices/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>InteractionParadigms</title>
-      <link>/tags/interactionparadigms/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/interactionparadigms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IvanSutherland</title>
-      <link>/tags/ivansutherland/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/ivansutherland/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>labs</title>
-      <link>/tags/labs/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/labs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lectures</title>
-      <link>/tags/lectures/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/lectures/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mobile</title>
-      <link>/tags/mobile/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/mobile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MRAppStore</title>
-      <link>/tags/mrappstore/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/mrappstore/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ShapeSmartphones</title>
-      <link>/tags/shapesmartphones/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/shapesmartphones/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>test</title>
       <link>/tags/test/</link>
       <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UltimateDisplay</title>
-      <link>/tags/ultimatedisplay/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/ultimatedisplay/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unity</title>
-      <link>/tags/unity/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/unity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VR</title>
-      <link>/tags/vr/</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/vr/</guid>
       <description></description>
     </item>
     

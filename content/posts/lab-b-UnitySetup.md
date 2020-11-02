@@ -1,7 +1,7 @@
 ---
 title: "Lab b) : Unity Setup // Computer Graphics' 3D platformer"
 description: How I got my hands on Unity.
-date: 2020-09-17
+date: 2020-11-02
 draft: false
 tags: [labs,Unity]
 ---

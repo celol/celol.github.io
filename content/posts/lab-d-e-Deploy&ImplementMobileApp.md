@@ -1,7 +1,7 @@
 ---
 title: "Lab d) & e) : Deploying and Implementing a Mobile Application"
 description: Roll a Ball to Mobile.
-date: 2020-09-17
+date: 2020-11-02
 draft: false
 tags: [labs,Unity,Mobile]
 ---

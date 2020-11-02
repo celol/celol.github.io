@@ -1,7 +1,7 @@
 ---
 title: "Lab f) : VR Roll-a-Ball Unity and course's feedback"
 description: Roll a Ball to VR.
-date: 2020-09-17
+date: 2020-11-02
 draft: false
 tags: [labs,Unity,VR]
 ---

@@ -1,7 +1,7 @@
 ---
-title: "Lecture 2 : Gestalt Laws"
+title: "Lecture 02 : Gestalt Laws"
 description: The application (or not) of Gestalt laws that I've found.
-date: 2020-09-17
+date: 2020-11-02
 tldr: Using wonderful subreddits to show and correct bad applications of Gestalt laws
 draft: false
 tags: [lectures,Gestalt]
