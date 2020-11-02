@@ -21,28 +21,28 @@ rel="manifest"
 href="/site.webmanifest">
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Lab f) : VR Roll-a-Ball Unity - My Blog : Célestin HERNANDEZ</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Lab f) : VR Roll-a-Ball Unity and course&#39;s feedback - My Blog : Célestin HERNANDEZ</title><meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<meta property="og:description" content="Roll a Ball to VR." />
 	<meta name="twitter:description" content="Roll a Ball to VR." />
 	<meta name="description" content="Roll a Ball to VR." />
 	<meta name="description" content="Roll a Ball to VR." />
 
-	<meta property="og:title" content="Lab f) : VR Roll-a-Ball Unity | My Blog : Célestin HERNANDEZ" />
-	<meta name="twitter:title" content="Lab f) : VR Roll-a-Ball Unity | My Blog : Célestin HERNANDEZ" />
+	<meta property="og:title" content="Lab f) : VR Roll-a-Ball Unity and course&#39;s feedback | My Blog : Célestin HERNANDEZ" />
+	<meta name="twitter:title" content="Lab f) : VR Roll-a-Ball Unity and course&#39;s feedback | My Blog : Célestin HERNANDEZ" />
 
 	<meta property="og:image" content=""/>
-	<meta itemprop="name" content="Lab f) : VR Roll-a-Ball Unity | My Blog : Célestin HERNANDEZ" />
-	<meta name="application-name" content="Lab f) : VR Roll-a-Ball Unity | My Blog : Célestin HERNANDEZ" />
+	<meta itemprop="name" content="Lab f) : VR Roll-a-Ball Unity and course&#39;s feedback | My Blog : Célestin HERNANDEZ" />
+	<meta name="application-name" content="Lab f) : VR Roll-a-Ball Unity and course&#39;s feedback | My Blog : Célestin HERNANDEZ" />
 	<meta property="og:site_name" content="" />
-	<meta property="og:title" content="Lab f) : VR Roll-a-Ball Unity" />
+	<meta property="og:title" content="Lab f) : VR Roll-a-Ball Unity and course&#39;s feedback" />
 <meta property="og:description" content="Roll a Ball to VR." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/lab-f-rollaballvr/" />
 <meta property="article:published_time" content="2020-09-17T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-09-17T00:00:00+00:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Lab f) : VR Roll-a-Ball Unity"/>
+<meta name="twitter:title" content="Lab f) : VR Roll-a-Ball Unity and course&#39;s feedback"/>
 <meta name="twitter:description" content="Roll a Ball to VR."/>
 <script src="/js/feather.min.js"></script>
 	
@@ -70,13 +70,44 @@ href="/site.webmanifest">
 <main>
 	<article>
 		<div class="title">
-			<h1 class="title">Lab f) : VR Roll-a-Ball Unity</h1>
+			<h1 class="title">Lab f) : VR Roll-a-Ball Unity and course&#39;s feedback</h1>
 			<div class="meta">Posted on Sep 17, 2020</div>
 		</div>
 		
 
 		<section class="body">
-			
+			<h2 id="a-vr-implementation-that-became-a-failure">A VR Implementation that became a failure.</h2>
+<p>Well, this is not the happiest I&rsquo;ve been. I had kept the VR Lab as far away as I could from me but maybe I should have put more thought in it because it ended up as a complete failure but I still want to write a blogpost for it.</p>
+<p>I had basically started the lab on Evry Campus on an Occulus Rift but switched to a Quest right after. 
+I followed the advices from the lab, got the same importing errors for my Roll A Ball android package and I was happy. The problems started when I tried to debug my game using Occulus Link.</p>
+<p>My scene looks something like this :</p>
+<figure>
+    <img src="/Scene.PNG"/> <figcaption>
+            <h4>Isn&#39;t it beautiful ?</h4>
+        </figcaption>
+</figure>
+
+<p>Basically, I had added a skybox, changed the material of my floor and added the roll a ball on the table. But I when I hit play in Occulus Link, this is what I end up with :</p>
+<figure>
+    <img src="/OculusScreenshot1604263987.jpeg"/> <figcaption>
+            <h4>Meh...</h4>
+        </figcaption>
+</figure>
+
+<p>Basically I was unable to have any VR interaction. I thought at first this was a package problem and I tried to uninstall &amp; reinstall the VR packages required to make it run but it did not change anything. I reupdated Unity, Occulus and it didn&rsquo;t change either.
+Since Carl is living with me, has the same PC and used the same headset I tried to copy the maneuvers he did to get it to work but it did not seem like it would work on my machine.</p>
+<p>Then, I thought about the mobile implementation I did and realised that I had completed it without debugging available. So I decided to complete the lab, adding some music (Adding a component AudioSource to the OVRCameraRig does the trick I guess) and then I build the app without erros and using SideQuest I transferred it onto my headset. I only got a black screen at launch and nothing was happening&hellip;</p>
+<p>You can find my project on my <a href="https://github.com/celol/RollABallVR">GitHub</a></p>
+<h2 id="why-it-didnt-work-">Why it didn&rsquo;t work ?</h2>
+<p>Well I bear the entire responsibility for the failure of this lab. I didn&rsquo;t give it as much time as I should have and I should have asked more questions earlier. My overall feeling about this lab is the fact that I never truly expected for a VR App to be so complicated to implement : there are numerous steps some that I had trouble understanding .
+I believed that since VR was getting more and more popular, its implementation would be more simple but it was not the case.</p>
+<h2 id="conclusion--feedback-on-the-course">Conclusion / Feedback on the course.</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/IEe2pxiUKFE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
 		</section>
 
 		<div class="post-tags">

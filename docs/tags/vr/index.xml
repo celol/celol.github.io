@@ -8,12 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/vr/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lab f) : VR Roll-a-Ball Unity</title>
+      <title>Lab f) : VR Roll-a-Ball Unity and course&#39;s feedback</title>
       <link>/posts/lab-f-rollaballvr/</link>
       <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/lab-f-rollaballvr/</guid>
-      <description></description>
+      <description>A VR Implementation that became a failure. Well, this is not the happiest I&amp;rsquo;ve been. I had kept the VR Lab as far away as I could from me but maybe I should have put more thought in it because it ended up as a complete failure but I still want to write a blogpost for it.
+I had basically started the lab on Evry Campus on an Occulus Rift but switched to a Quest right after.</description>
     </item>
     
   </channel>
