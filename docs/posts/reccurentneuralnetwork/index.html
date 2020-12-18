@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html><link
+rel="apple-touch-icon"
+sizes="180x180"
+href="/apple-touch-icon.png">
+
+<link
+rel="icon"
+type="image/png"
+sizes="32x32"
+href="/favicon-32x32.png">
+
+<link
+rel="icon"
+type="image/png"
+sizes="16x16"
+href="/favicon-16x16.png">
+
+<link
+rel="manifest"
+href="/site.webmanifest">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Recurrent Neural Networks - My Blog : Célestin HERNANDEZ</title><meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:description" content="What I&#39;ve understood about RNN, and my feeling about the course" />
+	<meta name="twitter:description" content="What I&#39;ve understood about RNN, and my feeling about the course" />
+	<meta name="description" content="What I&#39;ve understood about RNN, and my feeling about the course" />
+	<meta name="description" content="What I&#39;ve understood about RNN, and my feeling about the course" />
+
+	<meta property="og:title" content="Recurrent Neural Networks | My Blog : Célestin HERNANDEZ" />
+	<meta name="twitter:title" content="Recurrent Neural Networks | My Blog : Célestin HERNANDEZ" />
+
+	<meta property="og:image" content=""/>
+	<meta itemprop="name" content="Recurrent Neural Networks | My Blog : Célestin HERNANDEZ" />
+	<meta name="application-name" content="Recurrent Neural Networks | My Blog : Célestin HERNANDEZ" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:title" content="Recurrent Neural Networks" />
+<meta property="og:description" content="What I&#39;ve understood about RNN, and my feeling about the course" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/reccurentneuralnetwork/" />
+<meta property="article:published_time" content="2020-12-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-18T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Recurrent Neural Networks"/>
+<meta name="twitter:description" content="What I&#39;ve understood about RNN, and my feeling about the course"/>
+<script src="/js/feather.min.js"></script>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+</head><body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="/">My Blog : Célestin HERNANDEZ</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Recurrent Neural Networks</h1>
+			<div class="meta">Posted on Dec 18, 2020</div>
+		</div>
+		
+
+		<section class="body">
+			<h2 id="introduction">Introduction</h2>
+<p>During this course, I had the pleasure of discovering what Recurrent Neural Networks were. Since the evaluation associated to this course is mostly based on my understanding on the course, I&rsquo;ll try and be the clearest possible to show how much I&rsquo;ve learned.</p>
+<h2 id="sequence-modelling">Sequence Modelling</h2>
+<p>As said in the course, sequential data is everywhere. Wether in stock exchange data, music, texts, proteines, audio etc. What we mean by sequence is an enumeration of possibly repeated objects. And a specific order in the sequence leads to a specific result : a different sequence of amino acids will lead to a different protein.</p>
+<p>The question is : Can you use a Feed Forward Neural Network to complete classification over what we defined as a sequence ? The answer is no. Because of the variable size of the input (we need it to be fixed..) a regular FFNN would lead to incorrect predictions if the right architecture is not chosen, it would suffer from not having good generalisation and thus we would endlessly have to readapt our structure to make it fit for tiny different problems.</p>
+<p>Sequence Modelling is thus the ability of a network, to make predictions about any type of sequential data. Google Trad is a perfect example of a model that is able to handle sequential data.</p>
+<h2 id="recurrent-neural-networks">Recurrent Neural Networks</h2>
+<p>Reuccrent Neural Networks are able to handle variable length of inputs and outputs, preserve sequential information and have a good generalisation.</p>
+<p>But even if they are different than the regular Feed Forward Neural Network, they are still inspired by the human brain.</p>
+<p>Behaving in the same way that our brain, RNN take into account all of what&rsquo;s has been fed to him through a recurrent relation : h !</p>
+<figure>
+    <img src="/recrel.PNG"/> <figcaption>
+            <h4>Basic architecture</h4>
+        </figcaption>
+</figure>
+
+<p>Basically the RNN is going to take into account through each time step the information about previous time steps, therefore the network keeps in memory everything that passes as a human brain would do.</p>
+<p>In RNN we still need as in regular NN to minimise the loss in order to improve accuracy. To do so, weights are not updated at each time step but in the end ! To do so, RNN use a backpropagation through time. The system basically goes back in time (ie the sequence) and backpropagates the error like in a NN. But the BPTT is more complex than the regular one because it akes into account all of the previous steps in time. For simple models like the Vanilla one, Gradient Explosion &amp; Gradient Vanishing are thus very common because of the computing complexity.</p>
+<p>These problems with the gradient mainly come with the fact that long sequence may encapsluate the missing information in the very first part of the sequence. To retrieve it would mean that the RNN must not loose any information throughout its whole computation which is mostly impossible.
+To solve this issue, LSTM or Long Short Term Memory Networks are used.</p>
+<h2 id="lstm">LSTM</h2>
+<p>Instead of having just one neuron in the repeating module, LSTM have four which aim to help with long-term dependencies.</p>
+<p>These four &ldquo;neurons&rdquo; or gates filter information, by forgetting it or deciding what to write, or how much to write and what to output. Basically they are behaving as a human brain would do, trying to remember the most accurate and useful information. This solution solves in practive the problems faced with the gradient.</p>
+<h2 id="applications">Applications</h2>
+<p>RNN are used in various fields, Language Modelling (Predicting the last word of a sentence), Image Generation (trying to predict the next image in a sequence), Sequence to Sequence (translation for example), Visual Question Answering (outputting information about a given picture), Hand Gesture Recognition etc.</p>
+<p>The main problem with RNN is that they need to wait until all the data has been proceeded before being able to make a prediction&hellip;</p>
+<p>But this field is particularly exciting mostly with the topic of Attention : The idea is to let every step of an RNN pick information to look at from some larger collection of information. For example, if you are using an RNN to create a caption describing an image, it might pick a part of the image to look at for every word it outputs.</p>
+<p>The ideas of style transfer and its unlimited potential truly highlight how important RNN might become in art, culture or something we might even not know yet&hellip;</p>
+<h2 id="the-lab">The lab</h2>
+<p>Unfortunately, I could not quite finish the lab 😢 &hellip;</p>
+<p>So I&rsquo;ve decided to focus on the explanation of my understanding of the course.</p>
+<p>To make up for the lab uncompletion I would like to give you some feedback about the course.</p>
+<p>I&rsquo;ve enjoyed a lot discovering another aspect of AI, mostly because I did not know about RNN or at least the basic concept behind it.</p>
+<p>You were really pedagogue and enthusiatic and I thank you for that.</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/tags/rnn">RNN</a></li>
+					
+					<li><a href="/tags/course">Course</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+	</article>
+</main>
+<footer>
+<hr><a class="soc" href="https://github.com/celol" title="GitHub"><i data-feather="github"></i></a>|
+ <a href="https://github.com/athul/archie">Using Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+</footer>
+
+
+<script>
+      feather.replace()
+</script></div>
+    </body>
+</html>

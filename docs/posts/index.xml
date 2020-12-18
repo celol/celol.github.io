@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Recurrent Neural Networks</title>
+      <link>/posts/reccurentneuralnetwork/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/reccurentneuralnetwork/</guid>
+      <description>Introduction During this course, I had the pleasure of discovering what Recurrent Neural Networks were. Since the evaluation associated to this course is mostly based on my understanding on the course, I&amp;rsquo;ll try and be the clearest possible to show how much I&amp;rsquo;ve learned.
+Sequence Modelling As said in the course, sequential data is everywhere. Wether in stock exchange data, music, texts, proteines, audio etc. What we mean by sequence is an enumeration of possibly repeated objects.</description>
+    </item>
+    
+    <item>
       <title>Reinforcement Learning : Theory and the CartPole game</title>
       <link>/posts/reinforcement-learning/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>

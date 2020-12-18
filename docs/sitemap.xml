@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/course/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/lab/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
@@ -18,12 +23,22 @@
   </url>
   
   <url>
+    <loc>/posts/reccurentneuralnetwork/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/reinforcement-learning/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/reinforcementlearning/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/rnn/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
   

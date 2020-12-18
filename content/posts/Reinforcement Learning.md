@@ -118,4 +118,16 @@ With this implementation I was able to retrieve more positive results : Score go
 
 Obviously, it's a lot of hyperparameters to tweek, considering the task, so I went in here trying to find a more suitable option, the problem is that with all the structures that I've had, my maximum value looks like a wall. My algortihm does not seem to be capable of learning above that limit... Thus, the incompletion in my results.
 
-I'm sorry I could not try and tweak with other parameters, I've like I've come to a pretty good understanding of the lab and the finding of the perfect parameters
+I'm sorry I could not try and tweak with other parameters, I've like I've come to a pretty good understanding of the lab and the finding of the perfect parameters.
+
+
+### Course feedback and overall feelings
+
+
+As a chess enthusiast, I was thrilled at the idea of discovering of how algorithms such as AlphaZero work. I was not disappointed with the content of the course. It was great having you as our teacher since you seemed so passionate and really pedagogue.
+
+I would have wanted maybe to try and implement my "own" network in a lab, but the one that we had made me realise how different and complicated this process might be. Furthermore, it was hard on the machine side to be efficient with the Google Collab, and I'm sorry if you feel like I have not dedicated as much time as I should have.
+
+Overall, I feel like I've theoritically learned a lot, understood a lot aswell ; and I feel confident to try and build something on the Reinforcement Learning side as for now.
+
+Thank you very much for your time and attention !
