@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lab on My Blog : Célestin HERNANDEZ</title>
+    <link>/tags/lab/</link>
+    <description>Recent content in Lab on My Blog : Célestin HERNANDEZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/lab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reinforcement Learning : Theory and the CartPole game</title>
+      <link>/posts/reinforcement-learning/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/reinforcement-learning/</guid>
+      <description>What is Reinforcement Learning ? Introduction This will basically serve as a toolbox / summary of what I&amp;rsquo;ve learned about Reinforcement Learning either throughout the course or with my own exploration.
+I was extremely excited witht the idea of learning more about Reinforcement Learning : ever since I discovered the potential of Artficial Intelligence and Machine Learning, I was blown away by how people were actually programming AI to play games.</description>
+    </item>
+    
+  </channel>
+</rss>

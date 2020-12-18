@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html><link
+rel="apple-touch-icon"
+sizes="180x180"
+href="/apple-touch-icon.png">
+
+<link
+rel="icon"
+type="image/png"
+sizes="32x32"
+href="/favicon-32x32.png">
+
+<link
+rel="icon"
+type="image/png"
+sizes="16x16"
+href="/favicon-16x16.png">
+
+<link
+rel="manifest"
+href="/site.webmanifest">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Reinforcement Learning : Theory and the CartPole game - My Blog : Célestin HERNANDEZ</title><meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:description" content="What I&#39;ve understood about RL and my approach for the CartPole Lab" />
+	<meta name="twitter:description" content="What I&#39;ve understood about RL and my approach for the CartPole Lab" />
+	<meta name="description" content="What I&#39;ve understood about RL and my approach for the CartPole Lab" />
+	<meta name="description" content="What I&#39;ve understood about RL and my approach for the CartPole Lab" />
+
+	<meta property="og:title" content="Reinforcement Learning : Theory and the CartPole game | My Blog : Célestin HERNANDEZ" />
+	<meta name="twitter:title" content="Reinforcement Learning : Theory and the CartPole game | My Blog : Célestin HERNANDEZ" />
+
+	<meta property="og:image" content=""/>
+	<meta itemprop="name" content="Reinforcement Learning : Theory and the CartPole game | My Blog : Célestin HERNANDEZ" />
+	<meta name="application-name" content="Reinforcement Learning : Theory and the CartPole game | My Blog : Célestin HERNANDEZ" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:title" content="Reinforcement Learning : Theory and the CartPole game" />
+<meta property="og:description" content="What I&#39;ve understood about RL and my approach for the CartPole Lab" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/reinforcement-learning/" />
+<meta property="article:published_time" content="2020-12-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-18T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Reinforcement Learning : Theory and the CartPole game"/>
+<meta name="twitter:description" content="What I&#39;ve understood about RL and my approach for the CartPole Lab"/>
+<script src="/js/feather.min.js"></script>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+</head><body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="/">My Blog : Célestin HERNANDEZ</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Reinforcement Learning : Theory and the CartPole game</h1>
+			<div class="meta">Posted on Dec 18, 2020</div>
+		</div>
+		
+
+		<section class="body">
+			<h2 id="what-is-reinforcement-learning-">What is Reinforcement Learning ?</h2>
+<h3 id="introduction">Introduction</h3>
+<p>This will basically serve as a toolbox / summary of what I&rsquo;ve learned about Reinforcement Learning either throughout the course or with my own exploration.</p>
+<p>I was extremely excited witht the idea of learning more about Reinforcement Learning : ever since I discovered the potential of Artficial Intelligence and Machine Learning, I was blown away by how people were actually programming AI to play games. It looked exciting and fun, and I believe that it is the easiest Machine Learning paradigm to explain to neophytes. Reinforcement Learning is pretty similar to trying to teach your pet a trick : if it succeeds you can give it a reward, otherwise you try again !</p>
+<p>Well, obviously, there&rsquo;s more that meets the eye but the basics are here, you learn through trial and error and try to make your agent the best ever. If you&rsquo;re good at it you might end up working with OpenAI but we&rsquo;re not quite there yet. Let&rsquo;s get into terminoly and basics of what I currently know.</p>
+<h3 id="terminology">Terminology</h3>
+<p>Okay, to kick things off we need a bit of terminology. There are a lot of things interacting in a Reinforcement Learning method :</p>
+<ol>
+<li>
+<p>The agent : This is the entity that will learn and take decisions</p>
+</li>
+<li>
+<p>The environment : The &ldquo;situation&rdquo; in which the agent learn and takes decision</p>
+</li>
+<li>
+<p>The action : The set of possibles doings for the agent</p>
+</li>
+<li>
+<p>The state : The &ldquo;position&rdquo; of the agent in the environment</p>
+</li>
+<li>
+<p>The reward : For a certain state of the agent, the environment provides a reward to the agent</p>
+</li>
+<li>
+<p>The policy : The decision making function, which maps situations and actions</p>
+</li>
+<li>
+<p>The value function : Maps states to real numbers, where the value of a state represents the long-term reward achieved starting from that state, and executing a particular policy.</p>
+</li>
+<li>
+<p>The model : The agent’s view of the environment, which maps state-action pairs to probability distributions over states.</p>
+</li>
+</ol>
+<p>If we understand each and every point of this we&rsquo;re nearly set to take on our first Reinforcement Learning problem. What should be said is that even the most complex RL AIs like AlphaZero for Chess or AlphaGo for Go both follow the same principles, they require ton of computing capabilities but are now able to consistantly defeat the best players. AlphaZero for example only needed 4 hours of training to absolutely demolish what was considered the strongest Chess Entity : StockFish&hellip; Let&rsquo;s see how we can perform regarding the CartPole problem !</p>
+<h2 id="cart-pole-lab">Cart Pole lab</h2>
+<p>The Cart Pole, is part of OpenAI&rsquo;s gym : a database of problems meant to evaluate and compete on Machine Learning problems.
+The Cart Pole is a simple problem : the cart pole is a pendulum with a center of gravity above its pivot point. It’s unstable, but can be controlled by moving the pivot point under the center of mass. The goal is to keep the cartpole balanced by applying appropriate forces to a pivot point. If the cart goes too far right or left, or if the pole angle is larger than 12 degrees the &ldquo;game&rdquo; is considered to be lost.</p>
+<p>Our goal is to use a Deep Q Neural Network to train our agent to have the best score possible. Q-learning learns the action-value function Q(s, a): how good to take an action at a particular state. Basically a scalar value is assigned over an action a given the state s and Deep Q Neural Network uses a neural network that will approximate Q-values for each action based on the state.</p>
+<p>For our network to be considered successfull we&rsquo;ll need to get a mean score of 195 for an agent.</p>
+<h3 id="the-code-structure">The code structure</h3>
+<p>Let&rsquo;s try and understand the code structure for this lab:</p>
+<ol>
+<li>
+<p>Q Network Class : This class is defining the Q value function with a neural network. The layers are linear and the output layer is a fully connected one. The overall output is a tensor that will help the agent determine which is the best action to perform based on the state he&rsquo;s in.</p>
+</li>
+<li>
+<p>The Doer : This class determines the action that&rsquo;s gonna be accomplished by the agent. It takes the maximum value from the previously defined tensor and performs the associated action (either 1 or 0)</p>
+</li>
+<li>
+<p>The Experience Replay : This class keeps track of all the transitions that have occured during the training and they way they are used to further improve the model&rsquo;s results</p>
+</li>
+<li>
+<p>The Learner : Uses the information provided by the experience replay to train the train the network</p>
+</li>
+<li>
+<p>The Evaluation and The Renderer : The first is to evaluate the model by displaying the mean score for each episode and the other allows us to visually evaluate how our model is behaving</p>
+</li>
+</ol>
+<h3 id="understanding-parameters">Understanding parameters</h3>
+<p>There are a few parameters that we are going to be able to tweak in order to achieve and build a successful model. From what I&rsquo;ve understood here are the ones we can change and their respective impact :</p>
+<p>&ndash; <em>Width of the network</em> : basically referring to the size of a layer</p>
+<p>&ndash; <em>Number of hidden layers</em> : pretty straightforward&hellip;</p>
+<p>&ndash; <em>Activation function</em> : as in regular Marchine Learning</p>
+<p>&ndash; <em>The droupout rate&quot;</em> : Same as in regular Machine Learning, how much neurons in proportion, are going to be thrown away to reduce overfitting</p>
+<p>&ndash; <em>Espsilon</em> : For the Doer it refers to the proportion of random behaviour that will be induced</p>
+<p>&ndash; <em>Buffer size</em> : The number of transition that the system considers at every step</p>
+<p>&ndash; <em>Weighted batches</em> : Do we choose the most relevant transitions (lower loss) or do we choose them uniformally ?</p>
+<h3 id="initial-results-">Initial results :</h3>
+<figure>
+    <img src="/initial.png"/> <figcaption>
+            <h4>Already implemented parameters</h4>
+        </figcaption>
+</figure>
+
+<h3 id="tweaking-tests-">Tweaking tests :</h3>
+<p>&ndash; <em>Width of the network</em> : 256</p>
+<p>&ndash; <em>Number of hidden layers</em> : 4</p>
+<p>&ndash; <em>Activation function</em> : Sigmoid</p>
+<p>&ndash; <em>The droupout rate&quot;</em> : 0.2</p>
+<p>&ndash; <em>Espsilon</em> : 0.2</p>
+<p>&ndash; <em>Buffer size</em> : 512</p>
+<p>&ndash; <em>Batch size</em> : 128</p>
+<p>&ndash; <em>Weighted batches</em> : True</p>
+<p>&ndash; <em>Optimizer</em> : SGD</p>
+<p>&ndash; <em>Algorithm</em> : QLearning</p>
+<p>With this implementation I was able to retrieve more positive results : Score got up to 25 sometimes. But I could not figure out a satisfying way to get a value above 50. Either I messed up on my preparation or I&rsquo;ve missed a crucial part.</p>
+<p>Obviously, it&rsquo;s a lot of hyperparameters to tweek, considering the task, so I went in here trying to find a more suitable option, the problem is that with all the structures that I&rsquo;ve had, my maximum value looks like a wall. My algortihm does not seem to be capable of learning above that limit&hellip; Thus, the incompletion in my results.</p>
+<p>I&rsquo;m sorry I could not try and tweak with other parameters, I&rsquo;ve like I&rsquo;ve come to a pretty good understanding of the lab and the finding of the perfect parameters</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/tags/reinforcementlearning">ReinforcementLearning</a></li>
+					
+					<li><a href="/tags/lab">Lab</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+	</article>
+</main>
+<footer>
+<hr><a class="soc" href="https://github.com/celol" title="GitHub"><i data-feather="github"></i></a>|
+ <a href="https://github.com/athul/archie">Using Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+</footer>
+
+
+<script>
+      feather.replace()
+</script></div>
+    </body>
+</html>
