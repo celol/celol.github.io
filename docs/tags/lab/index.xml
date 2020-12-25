@@ -6,7 +6,17 @@
     <description>Recent content in Lab on My Blog : Célestin HERNANDEZ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/lab/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/lab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Human 3D Pose Reconstruction : Computer Vision Lab</title>
+      <link>/posts/computervisionlab/</link>
+      <pubDate>Fri, 25 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/computervisionlab/</guid>
+      <description>Task 1 : Read the 2DTXT file and draw the keypoints on original video. To complete that task, we must understand how keypoints shall be drawn on the video. Basically we need to map what&amp;rsquo;s inside the OP2DTXT folder into the corresponding video.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27  all_coordinates = np.</description>
+    </item>
+    
     <item>
       <title>Reinforcement Learning : Theory and the CartPole game</title>
       <link>/posts/reinforcement-learning/</link>
