@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on My Blog : Célestin HERNANDEZ</title>
+    <link>/tags/project/</link>
+    <description>Recent content in Project on My Blog : Célestin HERNANDEZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MRTK : Paris Motor Show</title>
+      <link>/posts/parismotorshow/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/parismotorshow/</guid>
+      <description>Introduction Basically for this project, I tried to get and put to use everything that I had learned throughout the entire course.
+The obvious firsts steps were to correctly reconfigure the MRTK profiles and builds settings for the scene, since I had corruption troubles for the app and had to start over and redo the first tutorials for MRTK.
+Setting up Before getting too much into technicalities, it&amp;rsquo;s important to setup our scene.</description>
+    </item>
+    
+  </channel>
+</rss>
